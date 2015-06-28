@@ -24,6 +24,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sass', '3.2.19' 
 gem 'bower-rails'
 
+gem 'rails_12factor', group: :production
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -40,3 +42,4 @@ group :development, :test do
   gem "selenium-webdriver"
 end
 
+ruby "2.2.1"
